@@ -1,0 +1,19 @@
+How Generative AI can help in testing software using fuzzing.
+
+Fuzzing is a method to test the performance and responses of an application by exposing the application to a wide range of input data. The point is to detect which inputs would cause errors, security flaws or performance impacts. It is important to automate the generation of input data to save time.
+
+The Problem is that current fuzzing solutions generate data in a man-made automated way, resulting in probable biases, low levels of randomness and wrong or redundant input data.
+
+I would use generative AI because it would be a good solution to create a wide range of input data. Especially with the non-deterministic and random possibilities of generative AI, it could come up with more varied input data than existing fuzzing solutions.
+A next level would be that the test results could be used as input for next rounds of input data generation. Failed attacks could be used by the AI to train itself further and improve the specificity of attacks. This opens up the possibility to set up a Generative Adversarial Network (GAN) to automatically iterate until the software breaks.
+
+Impact:
+Higher quality
+Generative AI fuzzing will increase test coverage by providing a wider and more precise range of input data.
+Generated input data has fewer repetitions that originate from deterministic forms of randomness.
+There will be less biases in generated input data than with hand-crafted fuzzing algorithms.
+
+Faster testing
+Human effort can be reduced because there is no need for hand-crafted fuzzing algorithms anymore to create input data.
+The time required to run fuzzing tests would be reduced due to the higher quality of input data.
+A generation - test - improvement loop can be set up to automatically improve the input data of the generative AI.
